@@ -1,0 +1,101 @@
+/*
+Stylesheet - This gives the docs a bit more of a nice touch instead of a straight list.
+
+*/
+
+pre{
+  margin-left: 25px;
+  border: 1px solid #9999FF;
+  padding: 5px;
+  background: #EEEEFF;
+}
+
+.gem{
+  margin-left: 25px;
+  border: 1px solid #9999FF;
+  padding: 5px;
+  background: #EEEEFF;
+}
+
+p{
+  margin: 15px;
+}
+
+h1{
+  font-size:48px;
+  border-bottom: 5px solid #99F;
+}
+
+h2{
+  font-size:32px;
+  border-bottom: 5px solid #99F;
+}
+
+a.category{
+  width:0;
+  height: 0;
+  padding: 0;
+  margin:0;
+  line-height:0;
+}
+
+ul#categories{
+  display: inline;
+  border-bottom: 3px solid #99F;
+  padding: 5px;
+  margin: 5px;
+  background: #EEF;
+  
+  -webkit-box-shadow:  1px 1px 1px 1px rgba(225, 225, 255, 5);
+  box-shadow:  1px 1px 1px 1px rgba(225, 225, 255, 5);
+  
+  position: relative;
+    top: -21px;
+    left: -5px;
+}
+  ul#categories li{
+    display: inline;
+    list-style: none;
+    padding: 5px;
+    margin: 5px;
+    border-bottom: 3px solid #99F;
+    background: #EEF;
+  }
+  ul#categories li:hover{
+    background: #DDF;
+    border-bottom: 3px solid #113;
+  }
+  
+  ul#categories li a{
+    text-decoration: none;
+    color: #55D;
+  }
+
+ul{
+  
+}
+
+ul.doc li{
+  list-style: none;
+  border: 1px solid #9999FF;
+  padding: 15px;
+  margin: 25px 5px;
+  background: #EEEEFF;
+  -webkit-box-shadow:  1px 1px 3px 2px rgba(225, 225, 255, 5);
+  box-shadow:  1px 1px 3px 2px rgba(225, 225, 255, 5);
+}
+  ul.doc li a{
+    text-decoration: none;
+    width: 100%;
+    font-size: 24px;
+    margin-bottom: 25px;
+  }
+  
+  ul.doc li ul li{
+    border: none;
+    margin: 2px -25px;
+    padding:2px;
+    background: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
