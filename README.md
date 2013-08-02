@@ -14,7 +14,7 @@ Dantalion uses the comments in the code, formatted with MarkDown, to generate do
 
 ### Where does it work?
 
-The current version documents both BASH-like and Ruby code using hash markings for comments. I intend to add modules for other languages as I go along in its creation.
+The current version documents both BASH-like and Ruby code using hash markings for comments. I intend to add modules for other languages as I go along in its creation. It has been tested on Ruby, Perl, and Python sucessfully. At this point it will only extract libraries from Ruby, which I will expand upon later.
 
 ### Why not RDOC?
 
@@ -44,6 +44,8 @@ As for Rails? I don't see why that needs to be any different. A well written lib
 If a human can do it with enough time, a computer plus a human can do it faster. Why waste time doing something that you've already done, or writing for multiple platforms when the essence is the same? I, like some programmers, don't like repeating myself if possible. I like to find ways to shorten work time and improve efficiency. This is a product of that desire.
 
 This actually spawned from my other Ops tool, Mime. I happened to think the documentation of it was quite useful for other things so I began to expand it, a lot. This may well tie back into mime.
+
+It started as a way to document all of my Ruby scripts faster, hence the comments in the top sections.
 
 ### Can I help?
 
